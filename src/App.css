@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: 'VCR OSD Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('VCR OSD Mono'), url('VCR_OSD_MONO_1.001[1].woff') format('woff');
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  *{
+    font-family: 'VCR OSD Mono' !important;
   }
-  to {
-    transform: rotate(360deg);
+  .bg-nav{
+    background:#1C1B24  ;
   }
+  .bg-accent{
+    background:#BC6FA8;
+  }
+
+  .bg-accent:hover{
+    background:#a13d87;
+  }
+  
+  .bg-accent2{
+    background:#8D55B8;
+  }
+
+  .bg-accent2:hover{
+    background:#8238bb;
+  }
+  .bg-photo{
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.front{
+  z-index:1
+}
+
+.back img{
+  overflow: hidden;
+  position: absolute;
+  bottom:0;
+  transition: all 1s;
+  animation: shrink 5.3s infinite alternate;
+  
+  
+}
+.float-right-top{
+  position: absolute;
+  right: 10%;
+  top: 15%;
+}
+.float-bottom{
+  position:absolute;
+  bottom: 5%;
+}
+.bg-section1{
+  background:linear-gradient(to bottom, #C077AE,#B35C9B );
+  box-shadow: inset 0px 0px 10px 1px #333333aa;
+}
+.bg-section2{
+
+  background:#8F58BA;
+  box-shadow: inset 0px 0px 10px 1px #333333aa;
+}
+.bg-section3{
+
+  background:#171933;
+}
+body{
+  overflow-x:hidden
 }
