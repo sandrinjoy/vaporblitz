@@ -94,7 +94,7 @@ to make money in the process.
             <Carousel responsive={responsive}
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={2500}
+            autoPlaySpeed={4000}
             className="p-3"
           >
             <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
@@ -120,7 +120,7 @@ to make money in the process.
           infinite={true}
           autoPlay={true}
           className="p-3"
-          autoPlaySpeed={2500}>
+          autoPlaySpeed={4000}>
          <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
