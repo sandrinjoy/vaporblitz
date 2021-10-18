@@ -14,6 +14,7 @@
   }
   .bg-accent{
     background:#BC6FA8;
+    text-shadow: 2px 2px 4px rgb(15, 15, 15);
   }
 
   .bg-accent:hover{
@@ -22,6 +23,7 @@
   
   .bg-accent2{
     background:#8D55B8;
+    text-shadow: 2px 2px 4px rgb(15, 15, 15);
   }
 
   .bg-accent2:hover{
@@ -96,4 +98,17 @@
     width: 50%;
   
   }
+}
+.text-shadow{  text-shadow: 2px 2px 4px rgb(15, 15, 15);}
+*{
+  text-shadow: 2px 2px 4px rgb(15, 15, 15);
+}
+.btn-grad1{
+  background:linear-gradient(to bottom , #A67ACB,#8D55B8);
+  box-shadow: 0px 2px 6px 0px #111;
+}
+.btn-grad2{
+  background:linear-gradient(to bottom, #C077AE,#B35C9B );
+ 
+  box-shadow: 0px 2px 6px 0px #111;
 }

@@ -18,7 +18,7 @@ import chart from "./../assets/chart.png"
 import {FaDiscord, FaTelegramPlane} from 'react-icons/fa';
 import {AiOutlineDown,AiOutlineCopy} from 'react-icons/ai'
 import brand from "./../assets/brand.png"
-import { Image, Col, Button, Row, Card, Container } from "react-bootstrap";
+import { Image, ButtonGroup,Col, Button, Row, Card, Container } from "react-bootstrap";
 
 export default function Home() {
 
@@ -40,10 +40,11 @@ export default function Home() {
           
          <img src={brand} alt="VapoBlitz" className="front img-fluid img-brand" />
                <hr color="#fff"/>
-                   
-               <Button variant="dark" className="front bg-accent py-1 my-2 ">Play For Free</Button>
+               <ButtonGroup vertical>
+               <Button variant="dark" className="front bg-accent  my-1 shadow py-2 px-3 rounded-3">Play For Free</Button>
                
-               <Button variant="dark" className=" front bg-accent2 py-1 my-2 ">Marketplace</Button>
+               <Button variant="dark" className=" front bg-accent2 my-1 shadow p-2 rounded-3">Marketplace</Button>
+               </ButtonGroup>
             </section>
          <a href="#features" className="nav-link text-white front float-bottom mx-auto"><AiOutlineDown size={25}/></a>
          <a name="features"/>
@@ -193,15 +194,18 @@ abilities. After beating a boss you are rewarded with $VPR.</p>
        
        
     </Container>
-    <Container fluid className="  d-flex flex-column py-5  bg-section3" >
-      <h3 className="text-center text-white fs-2 pb-3">Buy $VPR</h3>
-        <p className="text-center align-self-center text-white fs-5 fw-light w-75  ">
+    <Container fluid className="  d-flex flex-column py-5  bg-section2" >
+      <h3 className="text-center text-shadow text-white fs-2 pb-3">Buy $VPR</h3>
+        <p className="text-center text-shadow align-self-center text-white fs-5 fw-light w-75  ">
         Buy the games main token on pancakeswap</p>
-        <div className="d-flex flex-column w-50 align-self-center">
-        <Button variant="dark" className=" bg-accent py-1 my-2 ">Buy on Pancakeswap </Button>
+        <div className="text-center">
+          <ButtonGroup vertical >
+        <Button variant="dark" className="rounded border-0  btn-grad2 bg-accent  py-1 my-2 ">Buy on Pancakeswap </Button>
                
-               <Button variant="dark" className="  bg-accent2 py-1 my-2 text-break ">0x3298473508089428040 <AiOutlineCopy/> </Button>
-            </div>
+               <Button variant="dark" className="rounded border-0   btn-grad1  bg-accent2 py-1 my-2 text-break ">0x3298473508089428040 <AiOutlineCopy/> </Button>
+          </ButtonGroup>
+           </div> 
+            <a className=" text-center mt-3" style={{color:'#E46161'}}>How to setup wallet and buy</a>
        
        
     </Container>
