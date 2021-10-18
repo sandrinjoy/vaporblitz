@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('VCR OSD Mono'), url('VCR_OSD_MONO_1.001[1].woff') format('woff');
+  font-display: swap;
   }
   
   *{
