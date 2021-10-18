@@ -32,8 +32,8 @@ export default function Home() {
            </div>
              <Container fluid className="front d-flex  align-items-center justify-content-center  bg-black bg-photo " style={{height: '100vh'}}>
             <div className="front float-right-top d-flex">
-             <a className="btn m-2 btn-dark bg-accent front rounded-circle border-0 d-flex justify-content-center align-items-center" href="#" role="button"><FaDiscord size={24} /></a>
-             <a className="btn m-2 btn-dark bg-accent2 front rounded-circle border-0 d-flex justify-content-center align-items-center" href="#" role="button"><FaTelegramPlane size={24}/></a>
+             <a className="btn m-2 btn-dark bg-accent front rounded-circle border-0 d-flex justify-content-center align-items-center p-2" href="#" role="button"><FaDiscord size={24} /></a>
+             <a className="btn m-2 btn-dark bg-accent2 front rounded-circle border-0 d-flex justify-content-center align-items-center p-2" href="#" role="button"><FaTelegramPlane size={24}/></a>
             </div>
             <section className="front  mx-auto my-auto d-flex flex-column justify-content-center align-items-center  w-100  ">
               
