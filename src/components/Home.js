@@ -21,7 +21,29 @@ import brand from "./../assets/brand.png"
 import { Image, ButtonGroup,Col, Button, Row, Card, Container } from "react-bootstrap";
 
 import {Image as CloudImage} from 'cloudinary-react';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 export default function Home() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+  
 
     return (
         <>
@@ -69,41 +91,53 @@ to make money in the process.
       <h3 className="text-center text-white fs-5 fw-light pb-3">All usable in Game!</h3>
         <Container>
             <Row className="mt-5 text-light">NFT Weapon Skins</Row>
-         <Row>
-             <Col md={3} className="d-flex justify-content-center align-items-center  ">
-                 <div className="text-center"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
-             </Col>
-             <Col md={3} className="d-flex justify-content-center align-items-center ">
-             <div className="text-center"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-         </Col>
-             <Col md={3} className="d-flex justify-content-center align-items-center ">
-             <div className="text-center"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-         </Col>
-             <Col md={3} className="d-flex justify-content-center align-items-center ">
-             <div className="text-center"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-         </Col>
-         
-
-
-         </Row>
+            <Carousel responsive={responsive}>
+            <div className="text-center"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+</Carousel>
+       
          <Row className=" mt-5 text-light">NFT Accessories</Row>
-         <Row>
-             <Col md={3} className="d-flex justify-content-center align-items-center  ">
-                 <div className="text-center"><img src={acc1} className="img-fluid w-75 p-3  "/></div>
-             </Col>
-             <Col md={3} className="d-flex justify-content-center align-items-center ">
-             <div className="text-center"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-         </Col>
-             <Col md={3} className="d-flex justify-content-center align-items-center ">
-             <div className="text-center"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-         </Col>
-             <Col md={3} className="d-flex justify-content-center align-items-center ">
-             <div className="text-center"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-         </Col>
+         <Carousel responsive={responsive}>
+         <div className="text-center"><img src={acc1} className="img-fluid w-75 p-3  "/></div>
          
-
-
-         </Row>
+         <div className="text-center"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+         <div className="text-center"><img src={acc1} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc1} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+         
+           </Carousel>
+           
+      
         </Container>
        
     </Container>
