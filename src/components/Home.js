@@ -49,7 +49,7 @@ export default function Home() {
         <>
          <div className="back">
           
-          <img src={tree} alt="trees over bg" className=" w-100 img-fluid " style={{background:'transparent'}}/>
+          <img src={tree} alt="trees over bg" className=" w-100 img-fluid tree-img " style={{background:'transparent'}}/>
            
            
            </div>
