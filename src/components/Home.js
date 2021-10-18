@@ -93,7 +93,7 @@ to make money in the process.
             <Row className="mt-5 text-light">NFT Weapon Skins</Row>
             <Carousel responsive={responsive}
             infinite={true}
-            autoPlay={false}
+            autoPlay={true}
             autoPlaySpeed={1000}
             className="p-3"
           >
