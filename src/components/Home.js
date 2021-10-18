@@ -20,6 +20,7 @@ import {AiOutlineDown,AiOutlineCopy} from 'react-icons/ai'
 import brand from "./../assets/brand.png"
 import { Image, ButtonGroup,Col, Button, Row, Card, Container } from "react-bootstrap";
 
+import {Image as CloudImage} from 'cloudinary-react';
 export default function Home() {
 
     return (
@@ -144,18 +145,24 @@ to make money in the process.
         
         <Row>
              <Col md={4} className="m-auto ">
-             <div className="m-auto text-center"><img src={boss1} className="img-fluid w-75 p-3  "/>
-             <h4 className="text-white">Signal Killer</h4>
+             <div className="m-auto text-center">
+             <CloudImage cloudName="vaporblitz" publicId="diceguyidle_v0kkue" className="img-fluid w-75 p-3"/>
+       
+             <h4 className="text-white">Dice Guy</h4>
              
              </div>
          </Col>
              <Col md={4} className="m-auto">
-             <div className="m-auto text-center"><img src={boss2} className="img-fluid w-75 p-3  "/>
-             <h4 className="text-white">Fruit Snatcher</h4></div>
+             <div className="m-auto text-center">
+             <CloudImage cloudName="vaporblitz" publicId="pineapple_squid2_g3ho0z" className="img-fluid w-75 p-3"/>
+       
+             <h4 className="text-white">Pineapple Squid</h4></div>
           </Col>
              <Col md={4} className="m-auto">
-             <div className="m-auto text-center"><img src={boss3} className="img-fluid w-75 p-3  "/>
-             <h4 className="text-white">Dead Dice</h4>
+             <div className="m-auto text-center">
+             <CloudImage cloudName="vaporblitz" publicId="tvguyloop_hbezbl" className="img-fluid w-75 p-3"/>
+  
+             <h4 className="text-white">Tv Guy</h4>
              </div>
           </Col>
         
