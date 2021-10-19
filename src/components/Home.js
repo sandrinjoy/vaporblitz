@@ -9,9 +9,6 @@ import acc1 from "./../assets/acc1.png"
 import acc2 from "./../assets/acc2.png"
 import acc3 from "./../assets/acc3.png"
 import acc4 from "./../assets/acc4.png"
-import boss1 from "./../assets/boss1.webp"
-import boss2 from "./../assets/boss2.webp"
-import boss3 from "./../assets/boss3.webp"
 import fun1 from "./../assets/fun1.png"
 import house from "./../assets/house.webp"
 import chart from "./../assets/chart.png"
@@ -95,7 +92,7 @@ to make money in the process.
             infinite={true}
             autoPlay={true}
             autoPlaySpeed={4000}
-            className="p-3"
+            className="p-3 "
           >
             <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
             <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
