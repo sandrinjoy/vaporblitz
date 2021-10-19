@@ -25,6 +25,7 @@ export default function Home() {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
+      
       items: 5
     },
     desktop: {
@@ -33,11 +34,12 @@ export default function Home() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 3
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 3
+      
     }
   };
   
@@ -92,6 +94,9 @@ to make money in the process.
             infinite={true}
             autoPlay={true}
             autoPlaySpeed={4000}
+            removeArrowOnDeviceType={"superLargeDesktop",["desktop","tablet", "mobile"]}
+
+  transitionDuration={1500}
             className="p-3 "
           >
             <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
@@ -117,7 +122,10 @@ to make money in the process.
           infinite={true}
           autoPlay={true}
           className="p-3"
-          autoPlaySpeed={4000}>
+          autoPlaySpeed={4000}
+          removeArrowOnDeviceType={"superLargeDesktop",["desktop","tablet", "mobile"]}
+
+          transitionDuration={1500}>
          <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
