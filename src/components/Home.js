@@ -208,20 +208,26 @@ to make money in the process.
         </p>
         <Row>
              <Col md={4} className="m-auto  ">
-             <div className="m-auto text-center"><img src={fun1} className="img-fluid w-50 p-3  "/>
+             <div className="m-auto text-center">
+               <div class="mt-5 mb-3 mx-auto d-flex flex-column rounded-3 align-items-center" style={{boxShadow:'0px 3px 20px 0px #111',height:'40vh' ,width:'40vh'}}><img src={fun1} className="img-fluid w-75 p-3 m-auto  "/>
              <h4 className="text-white">Fun Weapons</h4>
+             </div>
              <p className="text-light">Over 10 weapons with different abilities</p>
              
              </div>
          </Col>
              <Col md={4} className="m-auto ">
-             <div className="m-auto text-center"><img src={fun1} className="img-fluid w-50 p-3  "/>
+             <div className="m-auto text-center">
+               <div class="mt-5 mb-3 mx-auto d-flex flex-column rounded-3 align-items-center" style={{boxShadow:'0px 3px 20px 0px #111',height:'40vh' ,width:'40vh'}}><img src={fun1} className="img-fluid w-75 p-3 m-auto  "/>
              <h4 className="text-white">Fun Weapons</h4>
+             </div>
              <p className="text-light">Over 10 weapons with different abilities</p></div>
           </Col>
              <Col md={4} className="m-auto ">
-             <div className="m-auto text-center"><img src={fun1} className="img-fluid w-50 p-3  "/>
+             <div className="m-auto text-center">
+               <div class="mt-5 mb-3 mx-auto d-flex flex-column rounded-3 align-items-center" style={{boxShadow:'0px 3px 20px 0px #111',height:'40vh' ,width:'40vh'}}><img src={fun1} className="img-fluid w-75 p-3 m-auto  "/>
              <h4 className="text-white">Fun Weapons</h4>
+             </div>
              <p className="text-light">Over 10 weapons with different abilities</p></div>
          </Col>
         
@@ -239,23 +245,31 @@ to make money in the process.
         
         <Row>
              <Col md={4} className="m-auto ">
-             <div className="m-auto text-center">
-             <CloudImage cloudName="vaporblitz" publicId="diceguyidle_v0kkue" className="img-fluid w-75 p-3"/>
-       
+             <div className="m-auto text-center   ">
+             <div class="mt-5 mb-3 mx-auto d-flex flex-column rounded-3 align-items-center" style={{boxShadow:'0px 3px 20px 0px #111',height:'40vh' ,width:'40vh'}}>
+            
+               <CloudImage cloudName="vaporblitz" publicId="diceguyidle_v0kkue" className="img-fluid w-100 p-0 m-auto " />
+            
+             </div>
              <h4 className="text-white">Dice Guy</h4>
+              
              
              </div>
          </Col>
              <Col md={4} className="m-auto">
              <div className="m-auto text-center">
-             <CloudImage cloudName="vaporblitz" publicId="pineapple_squid2_g3ho0z" className="img-fluid w-75 p-3"/>
-       
+             <div class="mt-5 mb-3 mx-auto d-flex flex-column rounded-3 align-items-center" style={{boxShadow:'0px 3px 20px 0px #111',height:'40vh' ,width:'40vh'}}>
+         
+             <CloudImage cloudName="vaporblitz" publicId="pineapple_squid2_g3ho0z" className="img-fluid w-100"/>
+       </div>
              <h4 className="text-white">Pineapple Squid</h4></div>
           </Col>
              <Col md={4} className="m-auto">
              <div className="m-auto text-center">
-             <CloudImage cloudName="vaporblitz" publicId="tvguyloop_hbezbl" className="img-fluid w-75 p-3"/>
-  
+             <div class="mt-5 mb-3 mx-auto d-flex flex-column rounded-3 align-items-center" style={{boxShadow:'0px 3px 20px 0px #111',height:'40vh' ,width:'40vh'}}>
+         
+             <CloudImage cloudName="vaporblitz" publicId="tvguyloop_hbezbl" className="img-fluid w-100 "/>
+  </div>
              <h4 className="text-white">Tv Guy</h4>
              </div>
           </Col>
