@@ -34,11 +34,11 @@ export default function Home() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 3
+      items: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 3
+      items: 2
       
     }
   };
@@ -93,11 +93,13 @@ to make money in the process.
             <Carousel responsive={responsive}
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={4000}
+            autoPlaySpeed={1}
+            
             removeArrowOnDeviceType={"superLargeDesktop",["desktop","tablet", "mobile"]}
 
-  transitionDuration={1500}
+  transitionDuration={1000}
             className="p-3 "
+            customTransition=" 1s linear"
           >
             <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
             <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
@@ -122,10 +124,11 @@ to make money in the process.
           infinite={true}
           autoPlay={true}
           className="p-3"
-          autoPlaySpeed={4000}
-          removeArrowOnDeviceType={"superLargeDesktop",["desktop","tablet", "mobile"]}
+          autoPlaySpeed={1}
+          removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
-          transitionDuration={1500}>
+          transitionDuration={1000}
+          customTransition=" 1s linear">
          <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
