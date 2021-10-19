@@ -33,7 +33,7 @@ return (
       className="nav-hover nav-link active mx-2 fs-5  my-auto"
       to="/"
     >
-      marketplace
+      Marketplace
     </NavLink>
     <NavLink
       exact
@@ -41,7 +41,7 @@ return (
       className="nav-hover nav-link active mx-2 fs-5  my-auto"
       to="/teams"
     >
-      whitepaper
+      Whitepaper
     </NavLink>
     <NavLink
       exact
@@ -62,9 +62,9 @@ return (
     </NavLink>
     
     </Nav>
-    <Nav>
-        <Button variant="outline-light" className="rounded-pill m-2 my-md-0">play for free</Button>
-        <Button variant="dark" className="rounded-pill bg-accent m-2 my-md-0">connect wallet</Button>
+    <Nav className="mt-2 mt-md-0">
+        <Button variant="outline-light" className="rounded-pill m-2 my-md-0">Play For Free</Button>
+        <Button variant="dark" className="rounded-pill bg-accent m-2 my-md-0">Connect Wallet</Button>
        <div className="d-md-none mx-auto mt-4">
         <ButtonGroup>
         <a className="btn m-2 btn-dark bg-accent front rounded-circle border-0 d-flex justify-content-center align-items-center p-2" href="#" role="button"><FaDiscord size={24} /></a>

@@ -54,6 +54,7 @@ export default function Home() {
            
            
            </div>
+           <div style={{height: '100vh'}}>
              <Container fluid className="front d-flex  align-items-center justify-content-center  bg-black bg-photo " style={{height: '100vh'}}>
             <div className="front float-right-top d-flex">
              <a className="btn m-2 btn-dark bg-accent front rounded-circle border-0 d-flex justify-content-center align-items-center p-2" href="#" role="button"><FaDiscord size={24} /></a>
@@ -64,15 +65,19 @@ export default function Home() {
           
          <img src={brand} alt="VapoBlitz" className="front img-fluid img-brand up-small" />
                <hr color="#fff"/>
-               <ButtonGroup vertical>
-               <Button variant="dark" className="front bg-accent  my-1 shadow py-2 px-3 rounded-3 up-small">Play For Free</Button>
+               <ButtonGroup vertical className="front">
+               <Button variant="dark" className="front bg-accent  my-1  py-2 px-3 rounded-3 up-small border-0 btn-sha">Play For Free</Button>
                
-               <Button variant="dark" className=" front bg-accent2 my-1 shadow p-2 rounded-3 up-small">Marketplace</Button>
+               <Button variant="dark" className=" front bg-accent2 my-1  p-2 rounded-3 up-small border-0 btn-sha">Marketplace</Button>
                </ButtonGroup>
             </section>
-         <a href="#features" className="nav-link text-white front float-bottom mx-auto"><img src={arrow} width="32"/></a>
          <a name="features"/>
+       
     </Container>
+    <a href="#features" className="text-center nav-link text-white front float-bottom mx-auto"><img src={arrow} width="32"/></a>
+   
+    </div>
+        
     
     
     <Container fluid className="  d-flex flex-column py-5  bg-section1" >
