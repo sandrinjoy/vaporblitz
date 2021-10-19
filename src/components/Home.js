@@ -18,29 +18,33 @@ import {FaDiscord, FaTelegramPlane} from 'react-icons/fa';
 import {AiOutlineDown,AiOutlineCopy} from 'react-icons/ai'
 import brand from "./../assets/brand.png"
 import { Image, ButtonGroup,Col, Button, Row, Card, Container } from "react-bootstrap";
-
 import {Image as CloudImage} from 'cloudinary-react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 export default function Home() {
+  
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       
-      items: 3
+      items:4,
+      partialVisibilityGutter: 40
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 3,
+      partialVisibilityGutter: 40
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1
+      items: 2,
+      partialVisibilityGutter: 30
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 2,
+      partialVisibilityGutter: 30
       
     }
   };
@@ -98,38 +102,65 @@ to make money in the process.
         <Container>
             <Row className="mt-5 text-light">NFT Weapon Skins</Row>
             <Carousel responsive={responsive}
+         additionalTransfrom={0}
+         autoPlay={true}
+         autoPlaySpeed={1}
+         centerMode={false}
+         customTransition="all 2s linear"
+         transitionDuration={2000}
             infinite={true}
-            autoPlay={true}
+            
+            focusOnSelect={false}
             swipeable={false}
             draggable={false}
-            centerMode={true}
-            autoPlaySpeed={1}
+           
             
             removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
-  transitionDuration={2000}
+      
             className="p-3 "
-            customTransition=" 2s linear"
+            
           >
             <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
             <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
             <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
             <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
+            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
+            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
+            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
+            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
+         
           </Carousel>
        
          <Row className=" mt-5 text-light">NFT Accessories</Row>
          <Carousel responsive={responsive}
-          infinite={true}
-          autoPlay={true}
-          centerMode={true}
-          className="p-3"
-          autoPlaySpeed={1}
-          swipeable={false}
-          draggable={false}
-          removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
+         additionalTransfrom={0}
+         autoPlay={true}
+         autoPlaySpeed={1}
+         centerMode={false}
+         customTransition="all 2s linear"
+         transitionDuration={2000}
+            infinite={true}
+            
+            focusOnSelect={false}
+            swipeable={false}
+            draggable={false}
+           
+            
+            removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
-          transitionDuration={2000}
-          customTransition=" 2s linear">
+      
+            className="p-3 "
+            
+          >
          <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
@@ -137,10 +168,36 @@ to make money in the process.
          <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+              
+         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
            
+         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+         
+         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+           
+           <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+           
+           <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+           
+           <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+           <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+           
+           <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
+           
+           <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
+           
+           <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
+        
            </Carousel>
            
-      
+         
         </Container>
        
     </Container>
