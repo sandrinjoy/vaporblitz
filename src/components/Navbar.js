@@ -65,7 +65,7 @@ return (
     <Nav>
         <Button variant="outline-light" className="rounded-pill m-2 my-md-0">play for free</Button>
         <Button variant="dark" className="rounded-pill bg-accent m-2 my-md-0">connect wallet</Button>
-       <div className="d-md-none mx-auto mt-3">
+       <div className="d-md-none mx-auto mt-4">
         <ButtonGroup>
         <a className="btn m-2 btn-dark bg-accent front rounded-circle border-0 d-flex justify-content-center align-items-center p-2" href="#" role="button"><FaDiscord size={24} /></a>
          <a className="btn m-2 btn-dark bg-accent2 front rounded-circle border-0 d-flex justify-content-center align-items-center p-2" href="#" role="button"><FaTelegramPlane size={24}/></a>
