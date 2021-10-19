@@ -100,6 +100,8 @@ to make money in the process.
             <Carousel responsive={responsive}
             infinite={true}
             autoPlay={true}
+            swipeable={false}
+            draggable={false}
             autoPlaySpeed={1}
             
             removeArrowOnDeviceType={"superLargeDesktop",["desktop","tablet", "mobile"]}
@@ -120,6 +122,8 @@ to make money in the process.
           autoPlay={true}
           className="p-3"
           autoPlaySpeed={1}
+          swipeable={false}
+          draggable={false}
           removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
           transitionDuration={2000}
