@@ -114,7 +114,7 @@ to make money in the process.
             swipeable={false}
             draggable={false}
            
-            
+            ssr
             removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
       
@@ -154,7 +154,7 @@ to make money in the process.
             swipeable={false}
             draggable={false}
            
-            
+            ssr
             removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
       
