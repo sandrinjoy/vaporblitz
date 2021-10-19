@@ -12,6 +12,8 @@ import acc4 from "./../assets/acc4.png"
 import fun1 from "./../assets/fun1.png"
 import house from "./../assets/house.webp"
 import chart from "./../assets/chart.png"
+
+import arrow from "./../assets/arrow.png"
 import {FaDiscord, FaTelegramPlane} from 'react-icons/fa';
 import {AiOutlineDown,AiOutlineCopy} from 'react-icons/ai'
 import brand from "./../assets/brand.png"
@@ -60,15 +62,15 @@ export default function Home() {
             <section className="front  mx-auto my-auto d-flex flex-column justify-content-center align-items-center  w-100  ">
               
           
-         <img src={brand} alt="VapoBlitz" className="front img-fluid img-brand" />
+         <img src={brand} alt="VapoBlitz" className="front img-fluid img-brand up-small" />
                <hr color="#fff"/>
                <ButtonGroup vertical>
-               <Button variant="dark" className="front bg-accent  my-1 shadow py-2 px-3 rounded-3">Play For Free</Button>
+               <Button variant="dark" className="front bg-accent  my-1 shadow py-2 px-3 rounded-3 up-small">Play For Free</Button>
                
-               <Button variant="dark" className=" front bg-accent2 my-1 shadow p-2 rounded-3">Marketplace</Button>
+               <Button variant="dark" className=" front bg-accent2 my-1 shadow p-2 rounded-3 up-small">Marketplace</Button>
                </ButtonGroup>
             </section>
-         <a href="#features" className="nav-link text-white front float-bottom mx-auto"><AiOutlineDown size={25}/></a>
+         <a href="#features" className="nav-link text-white front float-bottom mx-auto"><img src={arrow} width="32"/></a>
          <a name="features"/>
     </Container>
     
@@ -97,27 +99,15 @@ to make money in the process.
             
             removeArrowOnDeviceType={"superLargeDesktop",["desktop","tablet", "mobile"]}
 
-  transitionDuration={1000}
+  transitionDuration={2000}
             className="p-3 "
-            customTransition=" 1s linear"
+            customTransition=" 2s linear"
           >
             <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
             <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
             <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
             <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun1} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-</Carousel>
+          </Carousel>
        
          <Row className=" mt-5 text-light">NFT Accessories</Row>
          <Carousel responsive={responsive}
@@ -127,8 +117,8 @@ to make money in the process.
           autoPlaySpeed={1}
           removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]}
 
-          transitionDuration={1000}
-          customTransition=" 1s linear">
+          transitionDuration={2000}
+          customTransition=" 2s linear">
          <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
@@ -136,22 +126,7 @@ to make money in the process.
          <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-         <div className="text-center carshadow"><img src={acc1} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc1} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-         
+           
            </Carousel>
            
       
