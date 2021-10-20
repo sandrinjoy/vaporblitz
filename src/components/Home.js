@@ -131,7 +131,7 @@ to make money in the process.
          <Carousel responsive={responsive}
          additionalTransfrom={0}
          autoPlay={true}
-         autoPlaySpeed={500}
+         autoPlaySpeed={1500}
          centerMode={false}
         transitionDuration={1000}
             infinite={true}
