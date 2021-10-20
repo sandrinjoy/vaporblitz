@@ -104,10 +104,9 @@ to make money in the process.
             <Carousel responsive={responsive}
          additionalTransfrom={0}
          autoPlay={true}
-         autoPlaySpeed={1}
+         autoPlaySpeed={500}
          centerMode={false}
-         customTransition="all 2s linear"
-         transitionDuration={2000}
+        transitionDuration={1000}
             infinite={true}
             
             focusOnSelect={false}
@@ -125,19 +124,7 @@ to make money in the process.
             <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
             <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
             <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-3 "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-3  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-3  "/></div>
-         
+          
           </Carousel>
        
          <Row className=" mt-5 text-light">NFT Accessories</Row>
@@ -168,33 +155,7 @@ to make money in the process.
          <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
          
          <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-              
-         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-           
-         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-         
-         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-           
-           <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-           
-           <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-           
-           <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-           <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-           
-           <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-3  "/></div>
-           
-           <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-3  "/></div>
-           
-           <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-3  "/></div>
-        
+       
            </Carousel>
            
          
