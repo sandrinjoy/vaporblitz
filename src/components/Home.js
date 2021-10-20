@@ -100,7 +100,7 @@ to make money in the process.
       
       <h3 className="text-center text-white fs-5 fw-light pb-3">All usable in Game!</h3>
         <Container>
-            <Row className="mt-5 text-light">NFT Weapon Skins</Row>
+            <Row className="mt-5 text-light"><span className="fs-5">NFT Weapon Skins</span></Row>
             <Carousel responsive={responsive}
          additionalTransfrom={0}
          autoPlay={true}
@@ -120,14 +120,14 @@ to make money in the process.
             className="py-3 "
             
           >
-            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-1 "/></div>
-            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-1  "/></div>
-            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-1  "/></div>
-            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-1  "/></div>
+            <div className="text-center carshadow "><img src={gun1} className="img-fluid w-75 p-0 "/></div>
+            <div className="text-center carshadow"><img src={gun2} className="img-fluid w-75 p-0  "/></div>
+            <div className="text-center carshadow"><img src={gun3} className="img-fluid w-75 p-0  "/></div>
+            <div className="text-center carshadow"><img src={gun4} className="img-fluid w-75 p-0  "/></div>
           
           </Carousel>
        
-         <Row className=" mt-5 text-light">NFT Accessories</Row>
+         <Row className=" mt-5 text-light"><span className="fs-5">NFT Accessories</span></Row>
          <Carousel responsive={responsive}
          additionalTransfrom={0}
          autoPlay={true}
@@ -147,13 +147,13 @@ to make money in the process.
             className="py-3 "
             
           >
-         <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-1  "/></div>
+         <div className="text-center carshadow "><img src={acc1} className="img-fluid w-75 p-0  "/></div>
          
-         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-1  "/></div>
+         <div className="text-center carshadow"><img src={acc2} className="img-fluid w-75 p-00  "/></div>
          
-         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-1  "/></div>
+         <div className="text-center carshadow"><img src={acc3} className="img-fluid w-75 p-0  "/></div>
          
-         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-1  "/></div>
+         <div className="text-center carshadow"><img src={acc4} className="img-fluid w-75 p-0  "/></div>
        
            </Carousel>
            
